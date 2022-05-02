@@ -1,0 +1,612 @@
+0000.004 (0) Opened log file at time: Mon, 02 May 2022 05:27:41 +0000 on https://lasse-godtkjaer.dk/kea/2_sem/09/unesco
+0000.005 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.3 PHP: 8.0.17 (cgi-fcgi, Linux lasse-godtkjaer.dk 5.4.0-80-generic #90-Ubuntu SMP Fri Jul 9 22:49:44 UTC 2021 x86_64) MySQL: 10.3.34-MariaDB-1:10.3.34+maria~focal (max packet size=1073741824) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1073741824 (used: 16.2M | 20M) multisite: N openssl: OpenSSL 1.1.1f  31 Mar 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.006 (0) Free space on disk containing Updraft's temporary directory: 94149474.6 MB
+0000.016 (0) Tasks: Backup files: 1 (schedule: every4hours) Backup DB:  (schedule: every4hours)
+0000.016 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.027 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1651455925, seconds_ago=13336)
+0000.029 (0) Set semaphore last lock (fd) time to 2022-05-02 05:27:41
+0000.029 (0) Semaphore lock (fd) complete
+0000.030 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2155, wp-content/plugins/updraftplus/class-updraftplus.php)
+0000.031 (0) Backup run: resumption=0, nonce=c8db537254c2, file_nonce=c8db537254c2 begun at=1651469261 (0s ago), job type=backup
+0000.032 (0) Scheduling a resumption (1) after 300 seconds (1651469561) in case this run gets aborted
+0000.059 (0) Checking if we have a zip executable available
+0000.060 (0) Creation of backups of directories: beginning
+0000.065 (0) No backup of plugins: excluded by user's options
+0000.066 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 212, wp-content/plugins/updraftplus/backup.php)
+0000.066 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.097 (0) Total entities for the zip file: 738 directories, 2094 files (0 skipped as non-modified), 45 MB
+0001.147 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.201 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.247 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.296 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.347 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.397 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.451 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.500 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.553 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.605 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.607 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 3933, wp-content/plugins/updraftplus/backup.php)
+0001.607 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (24.8 MB, 2094 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.379 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1100 files added (on-disk size: 13177.8 KB)
+0003.431 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1200 files added (on-disk size: 13177.8 KB)
+0003.480 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1300 files added (on-disk size: 13177.8 KB)
+0003.533 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1400 files added (on-disk size: 13177.8 KB)
+0003.585 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1500 files added (on-disk size: 13177.8 KB)
+0003.640 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1600 files added (on-disk size: 13177.8 KB)
+0003.692 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1700 files added (on-disk size: 13177.8 KB)
+0003.749 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1800 files added (on-disk size: 13177.8 KB)
+0003.803 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 1900 files added (on-disk size: 13177.8 KB)
+0003.857 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.tmp: 2000 files added (on-disk size: 13177.8 KB)
+0003.859 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 3933, wp-content/plugins/updraftplus/backup.php)
+0003.859 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.7 MB, 2094 files batched, 1001 (2002) added so far); re-opening (prior size: 13177.8 KB)
+0006.276 (0) Creating zip file manifest (/customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content/updraft/backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.list-temp.tmp)
+0006.282 (0) Successfully created zip file manifest (size: 181798)
+0006.487 (0) Created themes zip (0) - 20314.6 KB in 6.4 s (3165 KB/s) (sha1: 0a9b64261e22ceb6592a9575676f0180fe2c7111, sha256: 88861d97d21242e490295b0a723fd65bf82a621341ce107c05a12c882e78107c)
+0006.491 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.491 (0) Looking for candidates to backup in: /customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content/uploads
+0006.494 (0) finding files: 2022: adding to list (1)
+0006.494 (0) finding files: custom_styles: adding to list (2)
+0006.495 (0) finding files: redux: adding to list (3)
+0006.495 (0) finding files: wpcf7_uploads: adding to list (4)
+0006.495 (0) finding files: colibri: adding to list (5)
+0006.496 (0) finding files: js_composer: adding to list (6)
+0006.496 (0) finding files: revslider: adding to list (7)
+0006.496 (0) finding files: bb-plugin: adding to list (8)
+0006.497 (0) finding files: elementor: adding to list (9)
+0006.497 (0) finding files: essential-addons-elementor: adding to list (10)
+0006.497 (0) finding files: .htaccess: adding to list (11)
+0006.497 (0) finding files: webp-converter-for-media-test.png: adding to list (12)
+0006.498 (0) finding files: webp-converter-for-media-test.png2: adding to list (13)
+0006.498 (0) finding files: forminator: adding to list (14)
+0006.498 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 212, wp-content/plugins/updraftplus/backup.php)
+0006.499 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.646 (0) Total entities for the zip file: 68 directories, 817 files (0 skipped as non-modified), 102.4 MB
+0006.700 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0006.754 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0006.760 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 3933, wp-content/plugins/updraftplus/backup.php)
+0006.761 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 817 files batched, 212 (212) added so far); re-opening (prior size: 0 KB)
+0007.896 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11726.7 KB/s)
+0007.897 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.1891269683838, normalised_time=2.1830554121403, max_time=7.8924148082733, data points known=1, old_max_bytes=26214400, new_max_bytes=72048743)
+0007.945 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 300 files added (on-disk size: 25127.8 KB)
+0007.996 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 400 files added (on-disk size: 25127.8 KB)
+0008.050 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 500 files added (on-disk size: 25127.8 KB)
+0008.101 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 600 files added (on-disk size: 25127.8 KB)
+0008.120 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 3933, wp-content/plugins/updraftplus/backup.php)
+0008.121 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 68.7 MB added on this batch (68.9 MB, 817 files batched, 425 (637) added so far); re-opening (prior size: 25127.8 KB)
+0011.693 (0) A useful amount of data was added after this amount of zip processing: 4 s (normalised: 4 s, rate: 17691.5 KB/s)
+0011.694 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.9865729808807, normalised_time=3.9770582894129, max_time=11.689877033234, data points known=1, old_max_bytes=72048743, new_max_bytes=127064913)
+0011.738 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 700 files added (on-disk size: 95692.9 KB)
+0011.785 (0) Zip: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.tmp: 800 files added (on-disk size: 95692.9 KB)
+0012.808 (0) Creating zip file manifest (/customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content/updraft/backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.list-temp.tmp)
+0012.812 (0) Successfully created zip file manifest (size: 51876)
+0013.906 (0) Created uploads zip (0) - 101780.5 KB in 7.4 s (13746 KB/s) (sha1: 2e07fe33cfad11ccd1b5a521127d3b894deb1492, sha256: 650213655d0625616517570a57a200ea0c913358332d9571a63250374c69ae31)
+0013.909 (0) Beginning backup of other directories found in the content directory (index: 0)
+0013.910 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0013.910 (0) Looking for candidates to backup in: /customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content
+0013.913 (0) finding files: plugins: skipping: this is the plugins directory
+0013.913 (0) finding files: index.php: adding to list (1)
+0013.913 (0) finding files: themes: skipping: this is the themes directory
+0013.914 (0) finding files: uploads: skipping: this is the uploads directory
+0013.914 (0) finding files: upgrade: skipping: excluded by options
+0013.914 (0) finding files: updraft: skipping: this is the updraft directory
+0013.915 (0) finding files: uploads-webpc: adding to list (2)
+0013.915 (0) finding files: .htaccess: adding to list (3)
+0013.916 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 212, wp-content/plugins/updraftplus/backup.php)
+0013.926 (0) Total entities for the zip file: 4 directories, 9 files (0 skipped as non-modified), 0 MB
+0013.950 (0) Creating zip file manifest (/customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content/updraft/backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip.list-temp.tmp)
+0013.952 (0) Successfully created zip file manifest (size: 509)
+0013.955 (0) Created others zip (0) - 24.4 KB in 0 s (663 KB/s) (sha1: 7b2c0691eb7f38f76cac1ca7f59bd37acf7829b5, sha256: 54cadc73c7bdb9b51e8f8cdad61b03241d2e620c16f259955a148b31b5c23551)
+0013.959 (0) Saving backup status to database (elements: 6)
+0013.960 (0) Beginning creation of database dump (WordPress DB)
+0013.961 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0013.967 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0013.973 (0) Table wp_Unescooptions: Total expected rows (approximate): 4415
+0013.974 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.039 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.040 (0) Table wp_Unescooptions: Rows added in this batch (next record: 13807): 760 (uncompressed bytes in this segment=2634551) in 0.07 seconds
+0014.050 (0) Table wp_Unescooptions: finishing file(s) (2, 246.6 KB)
+0014.051 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.056 (0) Table wp_Unescousers: Total expected rows (via COUNT): 5
+0014.056 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.057 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.058 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.058 (0) Table wp_Unescousers: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2044) in 0.00 seconds
+0014.064 (0) Table wp_Unescousers: finishing file(s) (2, 0.9 KB)
+0014.065 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.069 (0) Table wp_Unescousermeta: Total expected rows (via COUNT): 149
+0014.069 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.070 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.072 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.072 (0) Table wp_Unescousermeta: Rows added in this batch (next record: 151): 149 (uncompressed bytes in this segment=26204) in 0.00 seconds
+0014.078 (0) Table wp_Unescousermeta: finishing file(s) (2, 4.5 KB)
+0014.078 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.082 (0) Table wp_Unescocommentmeta: Total expected rows (via COUNT): 0
+0014.083 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.083 (0) Table wp_Unescocommentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=732) in 0.00 seconds
+0014.090 (0) Table wp_Unescocommentmeta: finishing file(s) (2, 0.4 KB)
+0014.090 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.094 (0) Table wp_Unescocomments: Total expected rows (via COUNT): 1
+0014.095 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.095 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.096 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.096 (0) Table wp_Unescocomments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2171) in 0.00 seconds
+0014.102 (0) Table wp_Unescocomments: finishing file(s) (2, 0.8 KB)
+0014.102 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.105 (0) Table wp_Unescolinks: Total expected rows (via COUNT): 0
+0014.106 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.107 (0) Table wp_Unescolinks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1342) in 0.00 seconds
+0014.114 (0) Table wp_Unescolinks: finishing file(s) (2, 0.5 KB)
+0014.114 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.137 (0) Table wp_Unescopostmeta: Total expected rows (approximate): 14227
+0014.138 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.161 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.255 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.405 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.513 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.514 (0) Table wp_Unescopostmeta: Rows added in this batch (next record: 17499): 14301 (uncompressed bytes in this segment=19944792) in 0.40 seconds
+0014.523 (0) Table wp_Unescopostmeta: finishing file(s) (2, 982.5 KB)
+0014.524 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.536 (0) Table wp_Unescoposts: Total expected rows (approximate): 2922
+0014.537 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.658 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.759 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.760 (0) Table wp_Unescoposts: Rows added in this batch (next record: 2161): 1879 (uncompressed bytes in this segment=10789966) in 0.23 seconds
+0014.770 (0) Table wp_Unescoposts: finishing file(s) (2, 909.3 KB)
+0014.770 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.774 (0) Table wp_Unescosignups: Total expected rows (via COUNT): 0
+0014.775 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.775 (0) Table wp_Unescosignups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1301) in 0.00 seconds
+0014.782 (0) Table wp_Unescosignups: finishing file(s) (2, 0.5 KB)
+0014.782 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.786 (0) Table wp_Unescoterm_relationships: Total expected rows (approximate): 75
+0014.787 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.788 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.788 (0) Table wp_Unescoterm_relationships: Rows added in this batch (next record: 100000): 75 (uncompressed bytes in this segment=1817) in 0.00 seconds
+0014.794 (0) Table wp_Unescoterm_relationships: finishing file(s) (2, 0.6 KB)
+0014.795 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.799 (0) Table wp_Unescoterm_taxonomy: Total expected rows (via COUNT): 40
+0014.799 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.800 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.801 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.801 (0) Table wp_Unescoterm_taxonomy: Rows added in this batch (next record: 50): 40 (uncompressed bytes in this segment=3392) in 0.00 seconds
+0014.808 (0) Table wp_Unescoterm_taxonomy: finishing file(s) (2, 1 KB)
+0014.808 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.812 (0) Table wp_Unescotermmeta: Total expected rows (via COUNT): 0
+0014.813 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.814 (0) Table wp_Unescotermmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=705) in 0.00 seconds
+0014.820 (0) Table wp_Unescotermmeta: finishing file(s) (2, 0.4 KB)
+0014.820 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.824 (0) Table wp_Unescoterms: Total expected rows (via COUNT): 40
+0014.824 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.825 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.826 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.826 (0) Table wp_Unescoterms: Rows added in this batch (next record: 50): 40 (uncompressed bytes in this segment=2693) in 0.00 seconds
+0014.832 (0) Table wp_Unescoterms: finishing file(s) (2, 0.9 KB)
+0014.833 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.837 (0) Table wp_Unescobp_activity: Total expected rows (via COUNT): 0
+0014.838 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.839 (0) Table wp_Unescobp_activity: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1418) in 0.00 seconds
+0014.846 (0) Table wp_Unescobp_activity: finishing file(s) (2, 0.5 KB)
+0014.846 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.850 (0) Table wp_Unescobp_activity_meta: Total expected rows (via COUNT): 0
+0014.851 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.852 (0) Table wp_Unescobp_activity_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0014.859 (0) Table wp_Unescobp_activity_meta: finishing file(s) (2, 0.4 KB)
+0014.859 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.864 (0) Table wp_Unescobp_invitations: Total expected rows (via COUNT): 0
+0014.865 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.865 (0) Table wp_Unescobp_invitations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1324) in 0.00 seconds
+0014.872 (0) Table wp_Unescobp_invitations: finishing file(s) (2, 0.5 KB)
+0014.872 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.876 (0) Table wp_Unescobp_notifications: Total expected rows (via COUNT): 0
+0014.877 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.877 (0) Table wp_Unescobp_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1078) in 0.00 seconds
+0014.883 (0) Table wp_Unescobp_notifications: finishing file(s) (2, 0.5 KB)
+0014.883 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.888 (0) Table wp_Unescobp_notifications_meta: Total expected rows (via COUNT): 0
+0014.889 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.889 (0) Table wp_Unescobp_notifications_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=769) in 0.00 seconds
+0014.897 (0) Table wp_Unescobp_notifications_meta: finishing file(s) (2, 0.4 KB)
+0014.897 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.901 (0) Table wp_Unescobp_optouts: Total expected rows (via COUNT): 0
+0014.902 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.903 (0) Table wp_Unescobp_optouts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=762) in 0.00 seconds
+0014.909 (0) Table wp_Unescobp_optouts: finishing file(s) (2, 0.4 KB)
+0014.910 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.914 (0) Table wp_Unescobp_xprofile_data: Total expected rows (via COUNT): 0
+0014.915 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.915 (0) Table wp_Unescobp_xprofile_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=727) in 0.00 seconds
+0014.922 (0) Table wp_Unescobp_xprofile_data: finishing file(s) (2, 0.4 KB)
+0014.923 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.927 (0) Table wp_Unescobp_xprofile_fields: Total expected rows (via COUNT): 1
+0014.927 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.928 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.929 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.929 (0) Table wp_Unescobp_xprofile_fields: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1388) in 0.00 seconds
+0014.936 (0) Table wp_Unescobp_xprofile_fields: finishing file(s) (2, 0.5 KB)
+0014.937 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.941 (0) Table wp_Unescobp_xprofile_groups: Total expected rows (via COUNT): 1
+0014.941 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.942 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.942 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.943 (0) Table wp_Unescobp_xprofile_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=837) in 0.00 seconds
+0014.949 (0) Table wp_Unescobp_xprofile_groups: finishing file(s) (2, 0.4 KB)
+0014.950 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.954 (0) Table wp_Unescobp_xprofile_meta: Total expected rows (via COUNT): 2
+0014.955 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.955 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.956 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.956 (0) Table wp_Unescobp_xprofile_meta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=954) in 0.00 seconds
+0014.964 (0) Table wp_Unescobp_xprofile_meta: finishing file(s) (2, 0.5 KB)
+0014.964 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.969 (0) Table wp_Unescocountries: Total expected rows (via COUNT): 250
+0014.970 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0014.971 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.978 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.978 (0) Table wp_Unescocountries: Rows added in this batch (next record: 250): 250 (uncompressed bytes in this segment=57640) in 0.01 seconds
+0014.985 (0) Table wp_Unescocountries: finishing file(s) (2, 15.8 KB)
+0014.986 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0014.989 (0) Table wp_Unescoe_events: Total expected rows (via COUNT): 0
+0014.990 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0014.990 (0) Table wp_Unescoe_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=578) in 0.00 seconds
+0014.996 (0) Table wp_Unescoe_events: finishing file(s) (2, 0.4 KB)
+0014.997 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.001 (0) Table wp_Unescoeg_grids: Total expected rows (via COUNT): 0
+0015.001 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.002 (0) Table wp_Unescoeg_grids: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=882) in 0.00 seconds
+0015.008 (0) Table wp_Unescoeg_grids: finishing file(s) (2, 0.4 KB)
+0015.008 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.012 (0) Table wp_Unescoeg_item_elements: Total expected rows (via COUNT): 0
+0015.013 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.014 (0) Table wp_Unescoeg_item_elements: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.00 seconds
+0015.020 (0) Table wp_Unescoeg_item_elements: finishing file(s) (2, 0.4 KB)
+0015.020 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.024 (0) Table wp_Unescoeg_item_skins: Total expected rows (via COUNT): 5
+0015.024 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.025 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.027 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.027 (0) Table wp_Unescoeg_item_skins: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=53834) in 0.00 seconds
+0015.037 (0) Table wp_Unescoeg_item_skins: finishing file(s) (2, 3.1 KB)
+0015.038 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.042 (0) Table wp_Unescoeg_navigation_skins: Total expected rows (via COUNT): 15
+0015.043 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.044 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.047 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.047 (0) Table wp_Unescoeg_navigation_skins: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=95139) in 0.01 seconds
+0015.055 (0) Table wp_Unescoeg_navigation_skins: finishing file(s) (2, 9.5 KB)
+0015.056 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.060 (0) Table wp_Unescofbv: Total expected rows (via COUNT): 0
+0015.061 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.062 (0) Table wp_Unescofbv: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0015.068 (0) Table wp_Unescofbv: finishing file(s) (2, 0.4 KB)
+0015.068 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.072 (0) Table wp_Unescofbv_attachment_folder: Total expected rows (approximate): 0
+0015.072 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.073 (0) Table wp_Unescofbv_attachment_folder: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=587) in 0.00 seconds
+0015.079 (0) Table wp_Unescofbv_attachment_folder: finishing file(s) (2, 0.3 KB)
+0015.079 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.083 (0) Table wp_Unescofrmt_form_entry: Total expected rows (via COUNT): 1
+0015.083 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.084 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.085 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.085 (0) Table wp_Unescofrmt_form_entry: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=934) in 0.00 seconds
+0015.092 (0) Table wp_Unescofrmt_form_entry: finishing file(s) (2, 0.5 KB)
+0015.092 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.096 (0) Table wp_Unescofrmt_form_entry_meta: Total expected rows (via COUNT): 12
+0015.096 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.097 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.097 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.098 (0) Table wp_Unescofrmt_form_entry_meta: Rows added in this batch (next record: 12): 12 (uncompressed bytes in this segment=2311) in 0.00 seconds
+0015.104 (0) Table wp_Unescofrmt_form_entry_meta: finishing file(s) (2, 0.8 KB)
+0015.104 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.108 (0) Table wp_Unescofrmt_form_views: Total expected rows (via COUNT): 4
+0015.108 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.108 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.109 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.109 (0) Table wp_Unescofrmt_form_views: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1333) in 0.00 seconds
+0015.116 (0) Table wp_Unescofrmt_form_views: finishing file(s) (2, 0.6 KB)
+0015.116 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.119 (0) Table wp_Unescopodsrel: Total expected rows (via COUNT): 3
+0015.120 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.120 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.121 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.121 (0) Table wp_Unescopodsrel: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1165) in 0.00 seconds
+0015.128 (0) Table wp_Unescopodsrel: finishing file(s) (2, 0.5 KB)
+0015.128 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.133 (0) Table wp_Unescorevslider_css: Total expected rows (via COUNT): 109
+0015.133 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.134 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.136 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.137 (0) Table wp_Unescorevslider_css: Rows added in this batch (next record: 109): 109 (uncompressed bytes in this segment=91664) in 0.01 seconds
+0015.143 (0) Table wp_Unescorevslider_css: finishing file(s) (2, 4.9 KB)
+0015.143 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.147 (0) Table wp_Unescorevslider_css_bkp: Total expected rows (via COUNT): 47
+0015.148 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.149 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.150 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.150 (0) Table wp_Unescorevslider_css_bkp: Rows added in this batch (next record: 47): 47 (uncompressed bytes in this segment=15475) in 0.00 seconds
+0015.158 (0) Table wp_Unescorevslider_css_bkp: finishing file(s) (2, 1.8 KB)
+0015.158 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.162 (0) Table wp_Unescorevslider_layer_animations: Total expected rows (via COUNT): 0
+0015.163 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.164 (0) Table wp_Unescorevslider_layer_animations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.00 seconds
+0015.169 (0) Table wp_Unescorevslider_layer_animations: finishing file(s) (2, 0.3 KB)
+0015.170 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.173 (0) Table wp_Unescorevslider_layer_animations_bkp: Total expected rows (via COUNT): 0
+0015.174 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.174 (0) Table wp_Unescorevslider_layer_animations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=610) in 0.00 seconds
+0015.180 (0) Table wp_Unescorevslider_layer_animations_bkp: finishing file(s) (2, 0.3 KB)
+0015.180 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.184 (0) Table wp_Unescorevslider_navigations: Total expected rows (via COUNT): 0
+0015.185 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.185 (0) Table wp_Unescorevslider_navigations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=663) in 0.00 seconds
+0015.191 (0) Table wp_Unescorevslider_navigations: finishing file(s) (2, 0.3 KB)
+0015.192 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.196 (0) Table wp_Unescorevslider_navigations_bkp: Total expected rows (via COUNT): 0
+0015.196 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.196 (0) Table wp_Unescorevslider_navigations_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0015.202 (0) Table wp_Unescorevslider_navigations_bkp: finishing file(s) (2, 0.4 KB)
+0015.203 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.207 (0) Table wp_Unescorevslider_sliders: Total expected rows (via COUNT): 0
+0015.207 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.207 (0) Table wp_Unescorevslider_sliders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.00 seconds
+0015.214 (0) Table wp_Unescorevslider_sliders: finishing file(s) (2, 0.4 KB)
+0015.215 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.219 (0) Table wp_Unescorevslider_sliders_bkp: Total expected rows (via COUNT): 0
+0015.219 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.219 (0) Table wp_Unescorevslider_sliders_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=671) in 0.00 seconds
+0015.226 (0) Table wp_Unescorevslider_sliders_bkp: finishing file(s) (2, 0.4 KB)
+0015.226 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.230 (0) Table wp_Unescorevslider_slides: Total expected rows (via COUNT): 0
+0015.230 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.231 (0) Table wp_Unescorevslider_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=645) in 0.00 seconds
+0015.237 (0) Table wp_Unescorevslider_slides: finishing file(s) (2, 0.4 KB)
+0015.238 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.242 (0) Table wp_Unescorevslider_slides_bkp: Total expected rows (via COUNT): 0
+0015.242 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.243 (0) Table wp_Unescorevslider_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=669) in 0.00 seconds
+0015.249 (0) Table wp_Unescorevslider_slides_bkp: finishing file(s) (2, 0.4 KB)
+0015.249 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.254 (0) Table wp_Unescorevslider_static_slides: Total expected rows (via COUNT): 0
+0015.254 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.255 (0) Table wp_Unescorevslider_static_slides: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=642) in 0.00 seconds
+0015.261 (0) Table wp_Unescorevslider_static_slides: finishing file(s) (2, 0.3 KB)
+0015.262 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.266 (0) Table wp_Unescorevslider_static_slides_bkp: Total expected rows (via COUNT): 0
+0015.267 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.267 (0) Table wp_Unescorevslider_static_slides_bkp: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=666) in 0.00 seconds
+0015.273 (0) Table wp_Unescorevslider_static_slides_bkp: finishing file(s) (2, 0.3 KB)
+0015.273 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.280 (0) Table wp_Unescoyoast_indexable: Total expected rows (via COUNT): 286
+0015.280 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.281 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.290 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.291 (0) Table wp_Unescoyoast_indexable: Rows added in this batch (next record: 337): 286 (uncompressed bytes in this segment=161174) in 0.01 seconds
+0015.297 (0) Table wp_Unescoyoast_indexable: finishing file(s) (2, 23.3 KB)
+0015.298 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.301 (0) Table wp_Unescoyoast_indexable_hierarchy: Total expected rows (approximate): 231
+0015.302 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.303 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.303 (0) Table wp_Unescoyoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 231 (uncompressed bytes in this segment=4756) in 0.00 seconds
+0015.309 (0) Table wp_Unescoyoast_indexable_hierarchy: finishing file(s) (2, 1 KB)
+0015.309 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.313 (0) Table wp_Unescoyoast_migrations: Total expected rows (via COUNT): 23
+0015.313 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.314 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.315 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.315 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.315 (0) Table wp_Unescoyoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1294) in 0.00 seconds
+0015.321 (0) Table wp_Unescoyoast_migrations: finishing file(s) (2, 0.6 KB)
+0015.322 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.326 (0) Table wp_Unescoyoast_primary_term: Total expected rows (via COUNT): 20
+0015.326 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0015.326 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.327 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.327 (0) Table wp_Unescoyoast_primary_term: Rows added in this batch (next record: 20): 20 (uncompressed bytes in this segment=2495) in 0.00 seconds
+0015.334 (0) Table wp_Unescoyoast_primary_term: finishing file(s) (2, 0.8 KB)
+0015.334 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 1626, wp-content/plugins/updraftplus/backup.php)
+0015.338 (0) Table wp_Unescoyoast_seo_links: Total expected rows (via COUNT): 563
+0015.339 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.344 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 2516, wp-content/plugins/updraftplus/backup.php)
+0015.345 (0) Table wp_Unescoyoast_seo_links: Rows added in this batch (next record: 744): 563 (uncompressed bytes in this segment=88126) in 0.01 seconds
+0015.350 (0) Table wp_Unescoyoast_seo_links: finishing file(s) (2, 10.3 KB)
+0015.351 (0) PHP event: code E_WARNING: filemtime(): stat failed for /customers/6/8/c/lasse-godtkjaer.dk/httpd.www/kea/2_sem/09/unesco/wp-content/updraft/backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz (line 1836, wp-content/plugins/updraftplus/backup.php)
+0015.353 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescooptions.table.tmpr13808.gz (1/52/fopen): adding to final database dump
+0015.357 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescooptions.table.gz (2/52/fopen): adding to final database dump
+0015.357 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescousers.table.tmpr6.gz (3/52/fopen): adding to final database dump
+0015.359 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescousers.table.gz (4/52/fopen): adding to final database dump
+0015.360 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescousermeta.table.tmpr152.gz (5/52/fopen): adding to final database dump
+0015.361 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescousermeta.table.gz (6/52/fopen): adding to final database dump
+0015.362 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocommentmeta.table.tmpr0.gz (7/52/fopen): adding to final database dump
+0015.363 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocommentmeta.table.gz (8/52/fopen): adding to final database dump
+0015.363 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocomments.table.tmpr2.gz (9/52/fopen): adding to final database dump
+0015.365 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocomments.table.gz (10/52/fopen): adding to final database dump
+0015.365 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescolinks.table.tmpr0.gz (11/52/fopen): adding to final database dump
+0015.366 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescolinks.table.gz (12/52/fopen): adding to final database dump
+0015.367 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescopostmeta.table.tmpr17500.gz (13/52/fopen): adding to final database dump
+0015.376 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescopostmeta.table.gz (14/52/fopen): adding to final database dump
+0015.376 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoposts.table.tmpr2162.gz (15/52/fopen): adding to final database dump
+0015.386 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoposts.table.gz (16/52/fopen): adding to final database dump
+0015.387 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescosignups.table.tmpr0.gz (17/52/fopen): adding to final database dump
+0015.388 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescosignups.table.gz (18/52/fopen): adding to final database dump
+0015.389 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterm_relationships.table.tmpr100001.gz (19/52/fopen): adding to final database dump
+0015.390 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterm_relationships.table.gz (20/52/fopen): adding to final database dump
+0015.391 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterm_taxonomy.table.tmpr51.gz (21/52/fopen): adding to final database dump
+0015.392 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterm_taxonomy.table.gz (22/52/fopen): adding to final database dump
+0015.392 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescotermmeta.table.tmpr0.gz (23/52/fopen): adding to final database dump
+0015.394 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescotermmeta.table.gz (24/52/fopen): adding to final database dump
+0015.394 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterms.table.tmpr51.gz (25/52/fopen): adding to final database dump
+0015.396 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoterms.table.gz (26/52/fopen): adding to final database dump
+0015.396 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_activity.table.tmpr0.gz (27/52/fopen): adding to final database dump
+0015.397 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_activity.table.gz (28/52/fopen): adding to final database dump
+0015.398 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_activity_meta.table.tmpr0.gz (29/52/fopen): adding to final database dump
+0015.399 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_activity_meta.table.gz (30/52/fopen): adding to final database dump
+0015.400 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_invitations.table.tmpr0.gz (31/52/fopen): adding to final database dump
+0015.401 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_invitations.table.gz (32/52/fopen): adding to final database dump
+0015.401 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_notifications.table.tmpr0.gz (33/52/fopen): adding to final database dump
+0015.403 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_notifications.table.gz (34/52/fopen): adding to final database dump
+0015.403 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_notifications_meta.table.tmpr0.gz (35/52/fopen): adding to final database dump
+0015.405 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_notifications_meta.table.gz (36/52/fopen): adding to final database dump
+0015.405 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_optouts.table.tmpr0.gz (37/52/fopen): adding to final database dump
+0015.407 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_optouts.table.gz (38/52/fopen): adding to final database dump
+0015.408 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_data.table.tmpr0.gz (39/52/fopen): adding to final database dump
+0015.409 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_data.table.gz (40/52/fopen): adding to final database dump
+0015.409 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_fields.table.tmpr2.gz (41/52/fopen): adding to final database dump
+0015.410 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_fields.table.gz (42/52/fopen): adding to final database dump
+0015.411 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_groups.table.tmpr2.gz (43/52/fopen): adding to final database dump
+0015.412 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_groups.table.gz (44/52/fopen): adding to final database dump
+0015.412 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_meta.table.tmpr3.gz (45/52/fopen): adding to final database dump
+0015.414 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescobp_xprofile_meta.table.gz (46/52/fopen): adding to final database dump
+0015.415 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocountries.table.tmpr251.gz (47/52/fopen): adding to final database dump
+0015.417 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescocountries.table.gz (48/52/fopen): adding to final database dump
+0015.417 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoe_events.table.tmpr0.gz (49/52/fopen): adding to final database dump
+0015.418 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoe_events.table.gz (50/52/fopen): adding to final database dump
+0015.419 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_grids.table.tmpr0.gz (51/52/fopen): adding to final database dump
+0015.420 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_grids.table.gz (52/52/fopen): adding to final database dump
+0015.420 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_item_elements.table.tmpr0.gz (53/52/fopen): adding to final database dump
+0015.421 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_item_elements.table.gz (54/52/fopen): adding to final database dump
+0015.422 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_item_skins.table.tmpr6.gz (55/52/fopen): adding to final database dump
+0015.423 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_item_skins.table.gz (56/52/fopen): adding to final database dump
+0015.424 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_navigation_skins.table.tmpr16.gz (57/52/fopen): adding to final database dump
+0015.425 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoeg_navigation_skins.table.gz (58/52/fopen): adding to final database dump
+0015.426 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofbv.table.tmpr0.gz (59/52/fopen): adding to final database dump
+0015.427 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofbv.table.gz (60/52/fopen): adding to final database dump
+0015.427 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofbv_attachment_folder.table.tmpr1.gz (61/52/fopen): adding to final database dump
+0015.428 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofbv_attachment_folder.table.gz (62/52/fopen): adding to final database dump
+0015.429 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_entry.table.tmpr2.gz (63/52/fopen): adding to final database dump
+0015.430 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_entry.table.gz (64/52/fopen): adding to final database dump
+0015.431 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_entry_meta.table.tmpr13.gz (65/52/fopen): adding to final database dump
+0015.433 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_entry_meta.table.gz (66/52/fopen): adding to final database dump
+0015.433 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_views.table.tmpr5.gz (67/52/fopen): adding to final database dump
+0015.435 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescofrmt_form_views.table.gz (68/52/fopen): adding to final database dump
+0015.435 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescopodsrel.table.tmpr4.gz (69/52/fopen): adding to final database dump
+0015.436 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescopodsrel.table.gz (70/52/fopen): adding to final database dump
+0015.437 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_css.table.tmpr110.gz (71/52/fopen): adding to final database dump
+0015.438 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_css.table.gz (72/52/fopen): adding to final database dump
+0015.439 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_css_bkp.table.tmpr48.gz (73/52/fopen): adding to final database dump
+0015.440 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_css_bkp.table.gz (74/52/fopen): adding to final database dump
+0015.441 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_layer_animations.table.tmpr0.gz (75/52/fopen): adding to final database dump
+0015.442 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_layer_animations.table.gz (76/52/fopen): adding to final database dump
+0015.442 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_layer_animations_bkp.table.tmpr0.gz (77/52/fopen): adding to final database dump
+0015.444 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_layer_animations_bkp.table.gz (78/52/fopen): adding to final database dump
+0015.444 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_navigations.table.tmpr0.gz (79/52/fopen): adding to final database dump
+0015.445 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_navigations.table.gz (80/52/fopen): adding to final database dump
+0015.446 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_navigations_bkp.table.tmpr0.gz (81/52/fopen): adding to final database dump
+0015.447 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_navigations_bkp.table.gz (82/52/fopen): adding to final database dump
+0015.448 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_sliders.table.tmpr0.gz (83/52/fopen): adding to final database dump
+0015.449 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_sliders.table.gz (84/52/fopen): adding to final database dump
+0015.449 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_sliders_bkp.table.tmpr0.gz (85/52/fopen): adding to final database dump
+0015.451 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_sliders_bkp.table.gz (86/52/fopen): adding to final database dump
+0015.451 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_slides.table.tmpr0.gz (87/52/fopen): adding to final database dump
+0015.452 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_slides.table.gz (88/52/fopen): adding to final database dump
+0015.453 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_slides_bkp.table.tmpr0.gz (89/52/fopen): adding to final database dump
+0015.454 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_slides_bkp.table.gz (90/52/fopen): adding to final database dump
+0015.455 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_static_slides.table.tmpr0.gz (91/52/fopen): adding to final database dump
+0015.456 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_static_slides.table.gz (92/52/fopen): adding to final database dump
+0015.457 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_static_slides_bkp.table.tmpr0.gz (93/52/fopen): adding to final database dump
+0015.458 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescorevslider_static_slides_bkp.table.gz (94/52/fopen): adding to final database dump
+0015.458 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_indexable.table.tmpr338.gz (95/52/fopen): adding to final database dump
+0015.460 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_indexable.table.gz (96/52/fopen): adding to final database dump
+0015.461 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_indexable_hierarchy.table.tmpr1001.gz (97/52/fopen): adding to final database dump
+0015.462 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_indexable_hierarchy.table.gz (98/52/fopen): adding to final database dump
+0015.462 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_migrations.table.tmpr24.gz (99/52/fopen): adding to final database dump
+0015.464 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_migrations.table.gz (100/52/fopen): adding to final database dump
+0015.465 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_primary_term.table.tmpr21.gz (101/52/fopen): adding to final database dump
+0015.466 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_primary_term.table.gz (102/52/fopen): adding to final database dump
+0015.466 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_seo_links.table.tmpr745.gz (103/52/fopen): adding to final database dump
+0015.468 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db-table-wp_Unescoyoast_seo_links.table.gz (104/52/fopen): adding to final database dump
+0015.485 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz: finished writing out complete database file (2231.8 KB)
+0015.583 (0) Total database tables backed up: 52 (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz, size: 2285498, sha1: 2660e17bf84fb73f41cf2842cd91c4c6a3ad8591, sha256: 9308fa376f661963b9eeede5b8d850c29cc29cae1c39421b768cdbb9618caf90)
+0015.587 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0015.587 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0015.588 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip: others: This file has not yet been successfully uploaded: will queue
+0015.588 (0) backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz: db: This file has not yet been successfully uploaded: will queue
+0015.589 (0) Saving backup history. Total backup size: 121.4 MB
+0015.590 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0015.592 (0) Cloud backup selection (1/1): dropbox with instance (1/1) (last)
+0015.592 (0) PHP event: code E_WARNING: set_time_limit(): Cannot set max execution time limit due to system policy (line 456, wp-content/plugins/updraftplus/backup.php)
+0015.593 (0) Beginning dispatch of backup to remote (dropbox) (instance identifier s-8723b375984b3fa8209f75a3c2126ac9)
+0015.593 (0) Dropbox: begin cloud upload (using API version 2 with OAuth v2 token)
+0015.622 (0) Dropbox: access gained; setting chunk size to: 1024 KB
+0015.990 (0) Dropbox: quota usage: used=588766.7 MB, total=2099456 MB, available=1510689.3 MB
+0015.991 (0) Dropbox: Attempt to upload: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip to: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip
+0017.297 (0) Dropbox chunked upload: 5 % uploaded (pid_upload_session:ABIE3RQDQWdyEhcFTIqAIscp9pgp_3JCWtLYbe-YJpb9xSbk, 1048576, 6656 KB)
+0019.976 (0) Dropbox chunked upload: 37.8 % uploaded (pid_upload_session:ABIE3RQDQWdyEhcFTIqAIscp9pgp_3JCWtLYbe-YJpb9xSbk, 7864320, 10240 KB)
+0022.864 (0) Dropbox chunked upload: 88.2 % uploaded (pid_upload_session:ABIE3RQDQWdyEhcFTIqAIscp9pgp_3JCWtLYbe-YJpb9xSbk, 18350080, 10240 KB)
+0025.011 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIE3RQDQWdyEhcFTIqAIscp9pgp_3JCWtLYbe-YJpb9xSbk, 20802126, 10240 KB)
+0027.007 (0) Recording as successfully uploaded: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip
+0027.010 (0) Deleting local file: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip: OK
+0027.011 (0) Deleting zip manifest (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip.list.tmp)
+0027.012 (0) Dropbox: File upload success (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-themes.zip): 20314 KB in 11s (1843 KB/s)
+0027.360 (0) Dropbox: quota usage: used=588786.5 MB, total=2099456 MB, available=1510669.5 MB
+0027.361 (0) Dropbox: Attempt to upload: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip to: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip
+0029.743 (0) Dropbox chunked upload: 10.1 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 10485760, 10240 KB)
+0032.022 (0) Dropbox chunked upload: 20.1 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 20971520, 10240 KB)
+0034.377 (0) Dropbox chunked upload: 30.2 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 31457280, 10240 KB)
+0035.554 (0) Dropbox chunked upload: 40.2 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 41943040, 10240 KB)
+0037.931 (0) Dropbox chunked upload: 50.3 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 52428800, 10240 KB)
+0039.563 (0) Dropbox chunked upload: 60.4 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 62914560, 10240 KB)
+0042.139 (0) Dropbox chunked upload: 70.4 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 73400320, 10240 KB)
+0043.920 (0) Dropbox chunked upload: 80.5 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 83886080, 10240 KB)
+0046.409 (0) Dropbox chunked upload: 90.5 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 94371840, 10240 KB)
+0048.940 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIE3XedAp-ZdUpvo8asWWR_-4J9NG24XYEMPNQEBe8_UJYH, 104223237, 10240 KB)
+0050.928 (0) Recording as successfully uploaded: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip
+0050.938 (0) Deleting local file: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip: OK
+0050.938 (0) Deleting zip manifest (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip.list.tmp)
+0050.939 (0) Dropbox: File upload success (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-uploads.zip): 101780 KB in 23s (4316 KB/s)
+0051.262 (0) Dropbox: quota usage: used=588885.9 MB, total=2099456 MB, available=1510570.1 MB
+0051.262 (0) Dropbox: Attempt to upload: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip to: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip
+0052.063 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIE3bSjyh1h_lchZurmwxMYLddSs9TPImTCNQNWlFBe8oya, 25015, 10240 KB)
+0054.012 (0) Recording as successfully uploaded: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip
+0054.014 (0) Deleting local file: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip: OK
+0054.014 (0) Deleting zip manifest (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip.list.tmp)
+0054.015 (0) Dropbox: File upload success (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-others.zip): 24 KB in 2s (8 KB/s)
+0054.365 (0) Dropbox: quota usage: used=588886 MB, total=2099456 MB, available=1510570 MB
+0054.366 (0) Dropbox: Attempt to upload: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz to: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz
+0055.796 (0) Dropbox chunked upload: 100 % uploaded (pid_upload_session:ABIE3djM5r8raqqKkoVT6kkJ4YIj6VVPhs0Xnd0dd19xISUz, 2285498, 10240 KB)
+0057.334 (0) Recording as successfully uploaded: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz
+0057.336 (0) Deleting local file: backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz: OK
+0057.337 (0) Dropbox: File upload success (backup_2022-05-02-0527_lassegodtkjaerdk_kea_2_sem_09__c8db537254c2-db.gz): 2231 KB in 2s (751 KB/s)
+0057.340 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0057.341 (0) Number of backup sets in history: 3; groups (db): 1
+0057.341 (0) Examining (for databases) backup set with group_id=0, nonce=c8db537254c2, datestamp=1651469261 (May 02 2022 05:27:41)
+0057.341 (0) This backup set is the backup set just made, so will not be deleted.
+0057.341 (0) Examining (for databases) backup set with group_id=0, nonce=90c373a4061f, datestamp=1651455925 (May 02 2022 01:45:25)
+0057.341 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0057.342 (0) Examining (for databases) backup set with group_id=0, nonce=19b402f1dce3, datestamp=1651432003 (May 01 2022 19:06:43)
+0057.342 (0) 1651432003: db: this set includes a database (backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-db.gz); db count is now 2
+0057.342 (0) 1651432003: db: over retain limit (2); will delete this database
+0057.342 (0) Delete file: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-db.gz, service=dropbox
+0057.343 (0) Dropbox: request deletion: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-db.gz
+0058.220 (0) Dropbox: deletion succeeded
+0058.222 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0058.222 (0) Number of backup sets in history: 3; groups (files): 1
+0058.223 (0) Examining (for files) backup set with nonce=c8db537254c2, datestamp=1651469261 (May 02 2022 05:27:41)
+0058.223 (0) This backup set is the backup set just made, so will not be deleted.
+0058.223 (0) This backup set is the backup set just made, so will not be deleted.
+0058.223 (0) This backup set is the backup set just made, so will not be deleted.
+0058.223 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.223 (0) Examining (for files) backup set with nonce=90c373a4061f, datestamp=1651455925 (May 02 2022 01:45:25)
+0058.223 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0058.223 (0) Examining (for files) backup set with nonce=19b402f1dce3, datestamp=1651432003 (May 01 2022 19:06:43)
+0058.223 (0) themes: over retain limit (2); will delete this file entity
+0058.223 (0) uploads: over retain limit (2); will delete this file entity
+0058.223 (0) others: over retain limit (2); will delete this file entity
+0058.223 (0) Delete file: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-themes.zip, service=dropbox
+0058.224 (0) Delete file: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-uploads.zip, service=dropbox
+0058.225 (0) Delete file: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-others.zip, service=dropbox
+0058.226 (0) Dropbox: request deletion: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-themes.zip
+0058.939 (0) Dropbox: deletion succeeded
+0058.940 (0) Dropbox: request deletion: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-uploads.zip
+0059.798 (0) Dropbox: deletion succeeded
+0059.798 (0) Dropbox: request deletion: backup_2022-05-01-1906_lassegodtkjaerdk_kea_2_sem_09__19b402f1dce3-others.zip
+0060.603 (0) Dropbox: deletion succeeded
+0060.605 (0) This backup set is now empty; will remove from history
+0060.605 (0) Deleting log file (log.19b402f1dce3.txt)
+0060.606 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0060.608 (0) Resume backup (c8db537254c2, 0): finish run
+0060.608 (0) Decremented the semaphore (fd) by 1
+0060.609 (0) Semaphore (fd) unlocked
+0060.609 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0060.611 (0) No email will/can be sent - the user has not configured an email address.
+0060.611 (0) The backup apparently succeeded and is now complete

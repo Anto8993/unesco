@@ -1,0 +1,16 @@
+/* 
+Theme Name:    hestia-child
+Template:    hestia
+Version:      1.0.0
+Description:  hestia child theme
+Author:      Lasse Godtkjaer
+*/
+
+/* //fjerner wordpress tekst i footer / obs hellere slet i php filen/ */
+.site-info .imprint {
+  display: none;
+}
+
+#copyright {
+  display: none;
+}
